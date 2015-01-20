@@ -11,7 +11,9 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://coderskye.azurewebsites.net/',
-        mail: {},
+        mail: {
+            from: 'samantha.puth@gmail.com',
+        },
         database: {
             client: 'sqlite3',
             connection: {
@@ -48,7 +50,9 @@ config = {
         //      }
         //  },
         // ```
-
+        mail: {
+            from: 'samantha.puth@gmail.com',
+        },
         database: {
             client: 'sqlite3',
             connection: {
